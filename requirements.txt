@@ -1,0 +1,5 @@
+http.server
+json
+urllib3
+Faker
+requests
