@@ -194,7 +194,7 @@ class APIHandler(BaseHTTPRequestHandler):
 
 
         for obj in response_data:
-          self.wfile.write(json.dumps(obj).encode('utf-8') + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n' + b'\n')
+          self.wfile.write(json.dumps(obj).encode('utf-8') + b'\n' )
 
 
 def run(server_class=HTTPServer, handler_class=APIHandler, port=8000):
